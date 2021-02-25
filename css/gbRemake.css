@@ -16,11 +16,11 @@ ul.dashed > li:before {
 .btn-stu {
   display: inline-block;
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
-  font-size: 1.2rem;
+  font-weight: 1000;
+  font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 0px;
-  height: 3.5rem;
+  height: 50px;
   line-height: 0rem;
   /* padding: 0 3rem; */
   /* margin: 0 0.3rem 1.2rem 0; */
@@ -32,6 +32,8 @@ ul.dashed > li:before {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #c5c5c5;
+  width: 200px;
+  border-radius: 6px;
   /* border: 0.2rem solid #c5c5c5; */
 }
 
@@ -55,6 +57,7 @@ ul.dashed > li:before {
   background-color: #0086ca;
   border-color: #0086ca;
   color: white;
+  
 }
 
 .reg-training-btn:hover {
@@ -136,6 +139,7 @@ ul.dashed > li:before {
 
 .colorBk {
   color: #000 !important;
+  margin-top: 30px !important;
 }
 
 .w100 {
@@ -179,7 +183,7 @@ ul.dashed > li:before {
 }
 
 .colorWt2:hover {
-  color: #0286ca !important;
+  /* color: #0286ca !important; */
 }
 
 .home-content__button {
@@ -192,8 +196,8 @@ ul.dashed > li:before {
 
 .s-homeHeaderTextColor {
   color: #209dd4 !important;
-  font-weight: 800 !important;
-  font-size: 22px !important;
+  font-weight: 1000 !important;
+  font-size: 37px !important;
   /* line-height: 88px; */
   margin-bottom: 10px !important;
   /* display: flex; */
@@ -205,8 +209,8 @@ ul.dashed > li:before {
 .s-homeTextColor {
   font-family: Nunito Sans;
   font-style: normal;
-  font-weight: bolder !important;
-  font-size: 11px;
+  font-weight: 900 !important;
+  font-size: 17px;
   /* line-height: 49px; */
   /* identical to box height */
   width: 100%;
@@ -277,7 +281,7 @@ ul.dashed > li:before {
   display: flex;
   align-items: center;
 
-  color: #0286ca;
+  color: #209dd4;
 }
 
 .headerBlueText2 {
@@ -285,24 +289,24 @@ ul.dashed > li:before {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 28px;
   line-height: 29px;
   /* identical to box height */
   text-align: center;
 
-  color: #0286ca;
+  color: #209dd4;
 }
 
 .headerBlueText3 {
   font-family: Montserrat;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 14px;
   line-height: 29px;
   /* identical to box height */
   text-align: center;
 
-  color: #0286ca;
+  color: #209dd4;
 }
 
 .mb-7 {
@@ -312,6 +316,7 @@ ul.dashed > li:before {
 .paddingAdjustedFooter {
   padding-bottom: 36px;
   padding-top: 36px;
+  background-color: #252424;
 }
 
 .footerHeaderText {
@@ -321,7 +326,8 @@ ul.dashed > li:before {
 
 .footerParaText {
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 50 !important;
 }
 
 /* how to join */
@@ -618,13 +624,14 @@ ul.dashed > li:before {
 }
 
 .s-section h2.blueText {
-  color: #0286ca !important;
+  color: #209dd4 !important;
+  font-size: 30btpx !important;
 }
 
 .blueBg {
   color: #fff;
-  border-color: #0286ca !important;
-  background-color: #0286ca !important;
+  border-color: #209dd4 !important;
+  background-color: #209dd4 !important;
 }
 
 .blueBg:focus {
@@ -633,8 +640,8 @@ ul.dashed > li:before {
 
 .blueBg:hover {
   color: #fff;
-  border-color: #007ab7 !important;
-  background-color: #007ab7 !important;
+  border-color: #209dd4 !important;
+  background-color: #209dd4 !important;
 }
 
 .newblack {
